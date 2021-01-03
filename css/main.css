@@ -1,0 +1,43 @@
+@import url('materialize.min.css');
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    display: flex;
+    color: #6c757d;
+    margin-top: 4rem;
+}
+
+#users-container {
+    margin-top: 4rem;
+}
+
+.user-view {
+    margin-top: 4rem;
+    display: flex;
+    color: #6c757d;
+}
+
+.user-view img {
+    border-style: double;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.divider {
+    margin-top: 1rem;
+}
+
+ul li {
+    font-size: 2rem;
+}
+
+ul button {
+    margin-top: 1rem;
+}
